@@ -56,7 +56,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', ))
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://filmclan1.blogspot.com/p/how-to-open-kingurl-link.html') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', '') # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
